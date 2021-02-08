@@ -15,7 +15,6 @@ body {
   text-align: left;
   background-color: #fff;
   line-height: 1.5;
-  
 }
 
 *,
@@ -39,16 +38,16 @@ h6,
 .h5,
 .h6 {
   color: #1b2733;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 p {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
 .content-title {
-  font-size: 27px;
+  font-size: 2.6rem;
 }
 
 .pull-left {
@@ -108,7 +107,7 @@ a:hover {
 
 .btn {
   color: #fff;
-  background:#ee414d;
+  background: #ee414d;
   text-decoration: none;
   padding: 10px;
 }
@@ -245,6 +244,10 @@ a.btn-rounded:hover {
 /* Overview section */
 #overview .welcome {
   width: 450px;
+}
+
+.section-title {
+  font-size: 2.6rem;
 }
 
 .section-img {
@@ -464,11 +467,11 @@ a.btn-rounded:hover {
 }
 
 .hero-button {
-  background-image: linear-gradient(to right,#fb793d,#ec3750);
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   color: #ffffff;
   padding: 12px 18px;
-  font-size: 14px;
+  font-size: 1.1rem;
   border-radius: 2px;
 }
 
