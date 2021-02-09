@@ -14,7 +14,6 @@ body {
   margin: 0;
   text-align: left;
   background-color: #fff;
-
 }
 
 *,
@@ -485,7 +484,6 @@ a.btn-rounded:hover {
 
 .section-spacer {
   padding: 40px 0;
-  
 }
 
 @media (max-width: 768px) {
@@ -619,7 +617,7 @@ ul {
   justify-content: center;
   text-align: center;
   width: 340px;
- /* max-width: 95%;*/
+  max-width: 95%;
 }
 .card .avatar img {
   border-radius: 50%;
@@ -628,15 +626,16 @@ ul {
 .card .title {
   font-size: 18px;
   margin-top: 18px;
-  color:#ee414d;
+  color: #ee414d;
 }
 .card .description {
   font-size: 17px;
   /*margin-top: 18px;*/
   color: #64707d;
+  padding: 5px;
 }
 .card .social ul {
-  margin-top: 22px;
+  padding: 1rem 1rem;
   list-style-type: none;
 }
 .card .social ul li {
@@ -646,3 +645,14 @@ ul {
   color: #ee414d;
 }
 
+.card_column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .card_column {
+    flex-direction: column;
+  }
+}
