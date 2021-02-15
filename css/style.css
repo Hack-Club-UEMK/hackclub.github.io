@@ -656,3 +656,19 @@ ul {
     flex-direction: column;
   }
 }
+
+.logo {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.logo:hover {
+  transform: scale(2) translate(1rem, 0.8rem);
+  -webkit-transform: scale(2) translate(1rem, 0.8rem);
+  -moz-transform: scale(2) translate(1rem, 0.8rem);
+  -ms-transform: scale(2) translate(1rem, 0.8rem);
+  -o-transform: scale(2) translate(1rem, 0.8rem);
+}
