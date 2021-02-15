@@ -1,3 +1,9 @@
+AOS.init({
+  offset: 250,
+  duration: 1500,
+  once: true,
+});
+
 function toggleMenu() {
   let menu = document.querySelector(".navbar-menu");
   if (menu.classList.contains("is-active")) {
