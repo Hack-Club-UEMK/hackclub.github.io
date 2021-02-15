@@ -1,3 +1,5 @@
+AOS.init();
+
 function toggleMenu() {
   let menu = document.querySelector(".navbar-menu");
   if (menu.classList.contains("is-active")) {
