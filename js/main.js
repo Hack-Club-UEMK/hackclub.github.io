@@ -7,9 +7,12 @@ AOS.init({
 function toggleMenu() {
   let menu = document.querySelector(".navbar-menu");
   if (menu.classList.contains("is-active")) {
-    menu.classList.remove("is-active");
+    menu.classList.add("is-active");
+   
   } else {
     menu.classList.add("is-active");
+    menu.classList.remove("is-active");
+    
   }
   $(".navbar-menu").slideToggle();
 }
