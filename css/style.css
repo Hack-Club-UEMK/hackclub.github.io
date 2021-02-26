@@ -602,6 +602,9 @@ ul {
   .navbar-menu {
     padding-bottom: 1.2rem;
   }
+  .center-items {
+    justify-content: center;
+  }
 }
 
 #overview {
