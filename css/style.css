@@ -679,17 +679,81 @@ ul {
 }
 
 /* hackdependence styles */
+
+/* tracks header underlining style */
+.tracks-title {
+  position: relative;
+}
+.tracks-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.tracks-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+/* Prizes card styling */
+
+/* code for underlining the titles. */
 .prizes-title {
   position: relative;
 }
-
-/* code for underlining the titles */
 
 .prizes-title:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
 .prizes-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+/* web title underlining eff */
+.web-title {
+  position: relative;
+}
+.web-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.web-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+/* ml title underlining eff */
+.ml-title {
+  position: relative;
+}
+.ml-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.ml-title::after {
   content: "";
   position: absolute;
   left: 0;
