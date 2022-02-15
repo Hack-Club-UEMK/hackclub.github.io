@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/hero.css" />
   <link rel="stylesheet" href="css/fonts/about.css" />
   <link rel="stylesheet" href="css/button.css" />
+  <link rel="stylesheet" href="css/accordian.css" />
 </head>
 
 <body>
@@ -395,55 +396,71 @@
   </section>
 
 
-  <section id="faq" class="section-spacer section-faq" data-aos="fade-up">
-    <div class="container">
-      <header class="section-header text-center">
-        <h2 class="section-title">Frequently Asked Questions</h2>
-      </header>
-      <div class="row" style="display: flex">
-        <div class="col-6">
-          <h3>Who can become a member?</h3>
-          <p>
-            The clubs is open to any student, ranging from novice developers
-            who are just starting, to advanced developers who want to further
-            their skills.
-          </p>
-        </div>
-        <div class="col-6">
-          <h3>How frequently do events and workshops occur?</h3>
-          <p>
-            We hold workshops and showcases at
-            <strong>University Of Engineering &amp; Management</strong>
-            &amp; we would recommend you to join our community by becoming a
-            member to get updates.
-          </p>
-        </div>
-      </div>
-      <div class="row" style="display: flex">
-        <div class="col-6">
-          <h3>What should I carry when attending a workshop?</h3>
-          <p>
-            We recommend you carry with you a notebook, pen and a laptop
-            because more often than not we make our hands dirty with code.
-            Most importantly, carry along a healthy dose of curiosity and
-            enthusiasm.
-          </p>
-        </div>
-        <div class="col-6">
-          <h3>Who should I reach out to if I have any questions?</h3>
-          <p>
-            If you have any questions or comments, please don't hesitate to
-            contact us by clicking the button below. We would be happy to stay
-            engaged via email even after the event
-          </p>
-        </div>
+  <!-- FAQ Section -->
+  <div class="accordion">
+    <h2 class="accordion__heading">Frequently Asked Questions</h2>
+  
+    <div class="accordion__item">
+      <button class="accordion__btn">
+  
+        <span class="accordion__caption"><i class="far fa-lightbulb"></i>Who can become a member?</span>
+        <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+      </button>
+  
+      <div class="accordion__content">
+        <p> The clubs is open to any student, ranging from novice developers who are just starting, to advanced developers who want to further their skills. </p>
       </div>
     </div>
-    <br />
-    <div class="mt-40 text-center">
-      <a href="mailto:Hack Club.uemk@gmail.com" class="hero-button" style="border-radius: 1.4rem">Send us an email</a>
+  
+    <div class="accordion__item">
+      <button class="accordion__btn">
+  
+        <span class="accordion__caption"><i class="far fa-lightbulb"></i>How frequently do events and workshops occur?</span>
+        <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+      </button>
+  
+      <div class="accordion__content">
+        <p> We hold workshops and showcases at University Of Engineering & Management & we would recommend you to join our community by becoming a member to get updates. </p>
+      </div>
     </div>
-  </section>
+  
+    <div class="accordion__item">
+      <button class="accordion__btn">
+  
+        <span class="accordion__caption"><i class="far fa-lightbulb"></i>What should I carry when attending a workshop?</span>
+        <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+      </button>
+  
+      <div class="accordion__content">
+        <p> We recommend you carry with you a notebook, pen and a laptop because more often than not we make our hands dirty with code. Most importantly, carry along a healthy dose of curiosity and enthusiasm. 
+        </p>
+      </div>
+    </div>
+  
+    <div class="accordion__item">
+      <button class="accordion__btn">
+  
+        <span class="accordion__caption"><i class="far fa-lightbulb"></i>Who should I reach out to if I have any questions?</span>
+        <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+      </button>
+  
+      <div class="accordion__content">
+        <p> If you have any questions or comments, please don't hesitate to contact us by clicking the button below. We would be happy to stay engaged via email even after the event </p>
+      </div>
+    </div>
+  
+    <div class="accordion__item">
+      <button class="accordion__btn">
+  
+        <span class="accordion__caption"><i class="far fa-lightbulb"></i>Should I learn skills in several areas?</span>
+        <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+      </button>
+  
+      <div class="accordion__content">
+        <p>Personally, I’d say choose a path and stick to it! Learning too many things at once will slow you down. Here are a few ideas of things you can choose to focus on, and a little bit about each one.</p>
+      </div>
+    </div>
+  </div>
 
   <footer id="footer" class="section-spacer">
     <div class="container">
@@ -529,6 +546,7 @@
   <!--For Particle js-->
   <script src="./js/particleJs/particle.min.js"></script>
   <script src="./js/particleJs/app.js"></script>
+  <script src="./js/accordian.js"></script>
 
 </body>
 
