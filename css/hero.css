@@ -1,75 +1,79 @@
 @import url(//db.onlinewebfonts.com/c/43b6a22abf4688936bcefbd5156e03e8?family=Begum-Regular);
 @import url(//db.onlinewebfonts.com/c/c14892d3935fa4d259ee50c732b92853?family=Dirt2+Stickler);
 
-.hero{
-    height: 90vh;
-    color: rgb(0, 0, 0);
-    font-family: 'Begum', monospace;
+.hero {
+  height: 90vh;
+  color: rgb(0, 0, 0);
+  font-family: "Begum", monospace;
 }
-.hero__content{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    text-align: center;
+.hero__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
 }
-.hero__content__titleDec{
-    font-size: 36px;
-    font-weight: bold;      
+.hero__content__titleDec {
+  font-size: 36px;
+  font-weight: bold;
 }
-.hero__content__title{
-    font-size: 96px;
-    font-weight: bold;
-    font-family: 'Dirt2 Stickler', sans-serif;
+.hero__content__title {
+  font-size: 96px;
+  font-weight: bold;
+  font-family: "Dirt2 Stickler", sans-serif;
+}
+.hero__content__patners {
+  margin: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+  word-spacing: 2rem;
+}
+.hero__content__patners-img {
+  height: 3rem;
+}
 
-}
-.hero__content__patners{
-    margin: 1rem;
+@media screen and (max-width: 768px) {
+  .hero__content__titleDec {
     font-size: 24px;
     font-weight: bold;
-    word-spacing: 2rem;
-}
-.hero__content__patners-img{
-height: 3rem
-}
-
-@media screen and (max-width: 768px){
-    .hero__content__titleDec{
-        font-size: 24px;
-        font-weight: bold; 
-        line-height: 4rem;     
-    }
-    .hero__content__title{
-        font-size: 35px;
-        font-weight: bold;
-    }
-    .hero__content__patners{
-        font-size: 24px;
-        font-weight: bold;
-        word-spacing: 2.5rem;
-        line-height: 4rem;
-    }
-    .hero__content__patners-img{
-    height: 2rem
-    }
+    line-height: 4rem;
+  }
+  .hero__content__title {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .hero__content__patners {
+    font-size: 24px;
+    font-weight: bold;
+    word-spacing: 2.5rem;
+    line-height: 4rem;
+  }
+  .hero__content__patners-img {
+    height: 2rem;
+  }
 }
 
-canvas{
+/* common classes */
+canvas {
   position: absolute;
   top: 0;
   height: 90vh;
   z-index: -1;
 }
-.text-orange{
-    color: #f15b2a;
+.text-orange {
+  color: #f15b2a;
 }
-.text-blue{
-    color: #333399;
+.text-blue {
+  color: #333399;
 }
-.text-green{
-    color: #368780;
+.text-green {
+  color: #368780;
 }
-.vertical-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  letter-spacing: 0.5rem;
 }

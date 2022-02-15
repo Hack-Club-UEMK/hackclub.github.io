@@ -1,0 +1,26 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponser__header__wrapper {
+  margin-bottom: 50px;
+}
+
+.sponsor__item {
+  margin: 20px;
+  padding: 20px;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 480px) {
+  .sponsor__item > img {
+    width: 50%;
+    height: auto;
+  }
+
+  .sponser__header__wrapper > span {
+    font-size: 20px;
+  }
+}
