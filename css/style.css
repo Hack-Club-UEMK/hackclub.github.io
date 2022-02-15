@@ -701,6 +701,120 @@ ul {
   transition: transform 250ms ease-in;
 }
 /* Prizes card styling */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  width: 100%;
+  padding: 100px;
+}
+
+.circle {
+  min-height: 35vh;
+  display: flex;
+  align-items: flex;
+  justify-content: center;
+}
+.circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /* border: 4px solid #ec3750; */
+}
+.circle .title {
+  font-size: 1.5rem;
+  color: #ec3750;
+  margin-top: 1rem;
+}
+.second-prize {
+  transform-style: preserve-3d;
+  min-height: 50vh;
+  width: 25rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 35px;
+  padding: 0rem 5rem;
+}
+.first-prize {
+  transform-style: preserve-3d;
+  min-height: 50vh;
+  width: 25rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 35px;
+  padding: 5rem 5rem;
+}
+.third-prize {
+  transform-style: preserve-3d;
+  min-height: 50vh;
+  width: 25rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 35px;
+  padding: 0.25rem 5rem;
+}
+
+.first-prize-title {
+  position: relative;
+  font-size: 50px;
+}
+.first-prize-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.first-prize-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.second-prize-title {
+  position: relative;
+  font-size: 35px;
+}
+.second-prize-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.second-prize-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.third-prize-title {
+  position: relative;
+  font-size: 35px;
+}
+.third-prize-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.third-prize-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
 
 /* code for underlining the titles. */
 .prizes-title {
