@@ -706,9 +706,7 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
   width: 100%;
-  padding: 100px;
 }
 
 .circle {
@@ -739,7 +737,7 @@ ul {
   width: 25rem;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
   border-radius: 35px;
-  padding: 0rem 5rem;
+  padding: 2rem 6rem;
 }
 .first-prize {
   transform-style: preserve-3d;
@@ -747,7 +745,8 @@ ul {
   width: 25rem;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
   border-radius: 35px;
-  padding: 5rem 5rem;
+  padding: 5rem 6rem;
+  margin: 20px;
 }
 .third-prize {
   transform-style: preserve-3d;
@@ -755,7 +754,7 @@ ul {
   width: 25rem;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
   border-radius: 35px;
-  padding: 0.25rem 5rem;
+  padding: 2rem 5rem;
 }
 .first-prize-title {
   font-size: 100px;
