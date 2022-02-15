@@ -1,5 +1,6 @@
 /* hackdependence style starts from line 682 */
-
+@import url(//db.onlinewebfonts.com/c/43b6a22abf4688936bcefbd5156e03e8?family=Begum-Regular);
+/* @import url("http://fonts.cdnfonts.com/css/samarkan"); */
 html,
 body {
   -webkit-font-smoothing: antialiased;
@@ -38,8 +39,9 @@ h6,
 .h4,
 .h5,
 .h6 {
+  font-family: "Begum", sans-serif;
   color: #1b2733;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 p {
@@ -759,7 +761,8 @@ ul {
 
 .first-prize-title {
   position: relative;
-  font-size: 50px;
+  font-size: 35px;
+  margin: 20px;
 }
 .first-prize-title:hover::after {
   transform: scaleX(1);
@@ -893,6 +896,31 @@ ul {
   transform-origin: left;
 }
 .ui-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+/* schedule stylings */
+.schedule-content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.schedule-title {
+  position: relative;
+}
+.schedule-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.schedule-title::after {
   content: "";
   position: absolute;
   left: 0;
