@@ -470,7 +470,7 @@ a.btn-rounded:hover {
 }
 
 .hero-button {
-  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  background-image: linear-gradient(to right, #fb793d, #ec3750); 
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   color: #ffffff;
   padding: 12px 18px;
@@ -673,7 +673,7 @@ ul {
 }
 
 .logo:hover {
-  transform: scale(2) translate(1rem, 0.8rem);
+  transform: scale(2) translate(0.1rem, 0.8rem);
   -webkit-transform: scale(2) translate(1rem, 0.8rem);
   -moz-transform: scale(2) translate(1rem, 0.8rem);
   -ms-transform: scale(2) translate(1rem, 0.8rem);
@@ -901,7 +901,6 @@ user agent stylesheet h2 {
   transform-origin: right;
   transition: transform 250ms ease-in;
 }
-
 
 /* Purorno style */
 
