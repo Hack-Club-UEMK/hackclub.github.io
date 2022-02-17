@@ -470,7 +470,7 @@ a.btn-rounded:hover {
 }
 
 .hero-button {
-  background-image: linear-gradient(to right, #fb793d, #ec3750); 
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   color: #ffffff;
   padding: 12px 18px;
@@ -595,9 +595,9 @@ ul {
   position: fixed;
   width: 100%;
   background-color: #fff;
-  -webkit-box-shadow: 0 8px 6px -6px #999;
+  /* -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999; */
   border-radius: 0.8rem;
   z-index: 69;
 }
