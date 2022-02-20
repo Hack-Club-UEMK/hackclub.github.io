@@ -595,9 +595,9 @@ ul {
   position: fixed;
   width: 100%;
   background-color: #fff;
-  -webkit-box-shadow: 0 8px 6px -6px #999;
+  /* -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999; */
   border-radius: 0.8rem;
   z-index: 69;
 }
@@ -673,7 +673,7 @@ ul {
 }
 
 .logo:hover {
-  transform: scale(2) translate(1rem, 0.8rem);
+  transform: scale(2) translate(0.1rem, 0.8rem);
   -webkit-transform: scale(2) translate(1rem, 0.8rem);
   -moz-transform: scale(2) translate(1rem, 0.8rem);
   -ms-transform: scale(2) translate(1rem, 0.8rem);
@@ -703,6 +703,207 @@ ul {
   transition: transform 250ms ease-in;
 }
 /* Prizes card styling */
+
+/* .prize-section h1 {
+  color: var(--secondary-text-color);
+} */
+
+.border-2 {
+  border-width: 2px !important;
+}
+.border-warning {
+  border-color: #ffc107 !important;
+}
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.border-2 {
+  border-width: 2px !important;
+}
+.border-warning {
+  border-color: #ffc107 !important;
+}
+.border-start {
+  border-left: 1px solid #dee2e6 !important;
+}
+.h2,
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.h2,
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 2.2;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+user agent stylesheet h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.text-center {
+  text-align: center !important;
+}
+.border-2 {
+  border-width: 2px !important;
+}
+.border-warning {
+  border-color: #ffc107 !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+.prize-title {
+  position: relative;
+}
+.prize-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.prize-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+/* first prize header underlining effect */
+.first-prize-title {
+  position: relative;
+}
+.first-prize-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.first-prize-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+/* second prize title  */
+.second-prize-title {
+  position: relative;
+}
+.second-prize-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.second-prize-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+/* third prize title */
+.third-prize-title {
+  position: relative;
+}
+.third-prize-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.third-prize-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.01em;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #fb793d, #ec3750);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+/* Purorno style */
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
