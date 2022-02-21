@@ -551,7 +551,7 @@ ul {
   width: 40px;
   height: 40px;
   color: #fff;
-  background-color: #ee414d;
+  background-color: #fb923c;
   display: none;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
@@ -1138,4 +1138,11 @@ user agent stylesheet h2 {
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 250ms ease-in;
+}
+
+.schedule-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 35px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
