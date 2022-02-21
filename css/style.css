@@ -121,9 +121,12 @@ a:hover {
 
 /* Navbar styling */
 .navbar {
-  min-height: 3.25rem;
-  position: relative;
-  z-index: 30;
+  /* background: rgba(255, 255, 255, 0.36);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);
+  border: 1px solid rgba(255, 255, 255, 0.1); */
 }
 
 .navbar-brand {
@@ -239,6 +242,7 @@ a.btn-rounded:hover {
 }
 
 .event-btn {
+  background: #fb793d;
   padding: 8px 12px;
   border-radius: 50px;
   font-weight: bold;
@@ -264,6 +268,7 @@ a.btn-rounded:hover {
   margin-bottom: 30px;
   padding: 25px 30px;
   border-radius: 5px;
+  border-color: #fb923c;
 }
 
 @media (min-width: 576px) {
@@ -470,12 +475,13 @@ a.btn-rounded:hover {
 }
 
 .hero-button {
-  background-image: linear-gradient(to right, #fb793d, #ec3750);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: #fb923c;
+  /* margin: 50px; */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.2);
   color: #ffffff;
   padding: 12px 18px;
   font-size: 1.1rem;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .feature-list-image {
@@ -594,7 +600,7 @@ ul {
 .nav-header {
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  /* background-color: transparent; */
   /* -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999; */
