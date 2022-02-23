@@ -1,5 +1,6 @@
-@import url(//db.onlinewebfonts.com/c/43b6a22abf4688936bcefbd5156e03e8?family=Begum-Regular);
+@import url(/css/begumSansFont/stylesheet.css);
+
 .about-font {
-  font-family: "Begum", sans-serif;
+  font-family: "Begum Sans Bold", sans-serif;
   font-size: 30px;
 }
