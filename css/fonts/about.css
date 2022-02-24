@@ -1,7 +1,6 @@
-@import url('http://fonts.cdnfonts.com/css/samarkan');
+@import url(/css/begumSansFont/stylesheet.css);
 
-.about-font{
-    font-family: 'Samarkan', sans-serif;
-    font-size: 30px;                                       
+.about-font {
+  font-family: "Begum Sans Bold", sans-serif;
+  font-size: 30px;
 }
-                

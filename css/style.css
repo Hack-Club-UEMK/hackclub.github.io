@@ -1,5 +1,5 @@
 /* hackdependence style starts from line 682 */
-@import url(//db.onlinewebfonts.com/c/43b6a22abf4688936bcefbd5156e03e8?family=Begum-Regular);
+@import url(/css/begumSansFont/stylesheet.css);
 /* @import url("http://fonts.cdnfonts.com/css/samarkan"); */
 html,
 body {
@@ -9,6 +9,7 @@ body {
 }
 
 body {
+  font-family: "Begum Sans", sans-serif;
   font-size: 1rem;
   color: #637282;
   overflow-x: hidden;
@@ -39,17 +40,19 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Begum", sans-serif;
+  font-family: "Begum Sans", sans-serif;
   color: #1b2733;
   font-weight: 600;
 }
 
 p {
-  font-size: 1.2rem;
+  font-family: "Begum Sans", sans-serif;
+  font-size: 1.1rem;
   line-height: 1.5rem;
 }
 
 .content-title {
+  font-family: "Begum Sans Medium", sans-serif;
   font-size: 2.6rem;
 }
 
@@ -121,9 +124,12 @@ a:hover {
 
 /* Navbar styling */
 .navbar {
-  min-height: 3.25rem;
-  position: relative;
-  z-index: 30;
+  /* background: rgba(255, 255, 255, 0.36);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);
+  border: 1px solid rgba(255, 255, 255, 0.1); */
 }
 
 .navbar-brand {
@@ -198,6 +204,7 @@ a {
   }
 
   .navbar-end {
+    font-family: "Begum Sans Semi", sans-serif;
     justify-content: flex-end;
     margin-left: auto;
   }
@@ -239,6 +246,7 @@ a.btn-rounded:hover {
 }
 
 .event-btn {
+  background: #fb793d;
   padding: 8px 12px;
   border-radius: 50px;
   font-weight: bold;
@@ -250,7 +258,8 @@ a.btn-rounded:hover {
 }
 
 .section-title {
-  font-size: 2.6rem;
+  font-family: "Begum Sans Bold", sans-serif;
+  font-size: 2.8rem;
 }
 
 .section-img {
@@ -264,6 +273,7 @@ a.btn-rounded:hover {
   margin-bottom: 30px;
   padding: 25px 30px;
   border-radius: 5px;
+  border-color: #fb923c;
 }
 
 @media (min-width: 576px) {
@@ -470,12 +480,14 @@ a.btn-rounded:hover {
 }
 
 .hero-button {
-  background-image: linear-gradient(to right, #fb793d, #ec3750);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: "Begum Sans Medium", sans-serif;
+  background-color: #fb923c;
+  /* margin: 50px; */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.2);
   color: #ffffff;
   padding: 12px 18px;
   font-size: 1.1rem;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .feature-list-image {
@@ -545,7 +557,7 @@ ul {
   width: 40px;
   height: 40px;
   color: #fff;
-  background-color: #ee414d;
+  background-color: #fb923c;
   display: none;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
@@ -594,7 +606,7 @@ ul {
 .nav-header {
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  /* background-color: transparent; */
   /* -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999; */
@@ -787,6 +799,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Begum Sans", sans-serif;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -841,6 +854,7 @@ user agent stylesheet h2 {
 
 /* first prize header underlining effect */
 .first-prize-title {
+  font-family: "Begum Sans Medium", sans-serif;
   position: relative;
 }
 .first-prize-title:hover::after {
@@ -862,6 +876,7 @@ user agent stylesheet h2 {
 
 /* second prize title  */
 .second-prize-title {
+  font-family: "Begum Sans Medium", sans-serif;
   position: relative;
 }
 .second-prize-title:hover::after {
@@ -883,6 +898,7 @@ user agent stylesheet h2 {
 
 /* third prize title */
 .third-prize-title {
+  font-family: "Begum Sans Medium", sans-serif;
   position: relative;
 }
 .third-prize-title:hover::after {
@@ -1132,4 +1148,19 @@ user agent stylesheet h2 {
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 250ms ease-in;
+}
+
+.schedule-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 35px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.hackdependenceFooter {
+  font-family: "Begum Sans Medium", sans-serif;
+  padding-left: 15px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
 }

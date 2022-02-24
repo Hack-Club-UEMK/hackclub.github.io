@@ -1,5 +1,7 @@
+@import url(/css/begumSansFont/stylesheet.css);
+
 .accordion {
-    margin: 5% 0% 5% 50%;
+  margin: 5% 0% 5% 50%;
   transform: translateX(-50%);
   width: 80%;
   margin-bottom: 5%;
@@ -10,6 +12,7 @@
 }
 
 .accordion__heading {
+  font-family: "Begum Sans Semi", sans-serif;
   margin-bottom: 1rem;
   padding: 0 1.4rem;
 }
@@ -28,6 +31,7 @@
   border: none;
   outline: none;
   color: var(--color-text);
+  font-family: "Begum Sans", sans-serif;;
   font-size: 1.2rem;
   text-align: left;
   cursor: pointer;
@@ -35,17 +39,18 @@
 }
 .accordion__btn:hover {
   color: var(--color-purple);
-  background: hsl(248, 53%, 97%);
+  background: white;
 }
 
 .accordion__item--active .accordion__btn {
-  color: var(--color-purple);
+  color: orange;
   border-bottom: 2px solid var(--color-purple);
-  background: hsl(248, 53%, 97%);
+  background: white;
 }
 
 .fa-lightbulb {
   padding-right: 1rem;
+  color: #fb923c;
 }
 .accordion__icon {
   border-radius: 50%;
@@ -58,6 +63,7 @@
 }
 
 .accordion__content {
+  font-family: "Begum Sans Light", sans-serif;
   font-weight: 300;
   max-height: 0;
   opacity: 0;
