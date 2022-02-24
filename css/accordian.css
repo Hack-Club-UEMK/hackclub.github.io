@@ -31,7 +31,7 @@
   border: none;
   outline: none;
   color: var(--color-text);
-  font-family: "Begum Sans", sans-serif;;
+  font-family: "Begum Sans", sans-serif;
   font-size: 1.2rem;
   text-align: left;
   cursor: pointer;
@@ -80,4 +80,10 @@
   opacity: 1;
   transform: translateX(0px);
   max-height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .faq {
+    font-size: 1.2rem;
+  }
 }
