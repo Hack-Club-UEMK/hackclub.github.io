@@ -1,11 +1,11 @@
 AOS.init({
-  offset: 250,
-  duration: 1500,
-  once: true,
+  offset: 150,
+  duration: 750,
+  once: false,
 });
 
 function toggleMenu() {
-  let menu = document.querySelector(".navbar-menu");
+  // let menu = document.querySelector(".navbar-menu");
   $(".navbar-menu").slideToggle();
 }
 
@@ -23,5 +23,16 @@ $(document).ready(function () {
   });
 });
 
+// show / hide navbar
 
+let prevScrollValue = window.scrollY;
 
+window.addEventListener("scroll", () => {
+  const navbar = document.querySelector(".nav-header");
+
+  console.log(window.scrollY < prevScrollValue ? "1" : "0");
+
+  navbar.classList[window.scrollY < prevScrollValue ? "remove" : "add"]("hide");
+
+  prevScrollValue = window.scrollY;
+});
