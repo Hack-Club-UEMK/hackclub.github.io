@@ -41,8 +41,8 @@ h6,
 .h5,
 .h6 {
   font-family: "Begum Sans", sans-serif;
-  color: #1b2733;
-  font-weight: 600;
+  /* color: #1b2733; */
+  /* font-weight: 600; */
 }
 
 p {
@@ -140,10 +140,44 @@ a:hover {
 }
 
 .overview-card {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
   margin-bottom: 30px;
   padding: 25px 30px;
-  border-radius: 5px;
-  border-color: #fb923c;
+  border: 0.75px solid #fb793d;
+}
+
+.overview-card::before {
+  content: "";
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: #fb923c;
+  transition: width 0.5s, height 0.5s;
+  z-index: 1;
+}
+
+.overview-card:hover::before {
+  z-index: -1;
+  width: 950px;
+  height: 950px;
+}
+/* 
+.overview-card:hover {
+  filter: invert(6%) sepia(13%) saturate(2513%) hue-rotate(201deg)
+    brightness(93%) contrast(103%);
+} */
+
+.overview-card:hover {
+  z-index: 2;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #637282;
 }
 
 @media (min-width: 576px) {
@@ -478,7 +512,6 @@ ul {
 }
 
 .card {
-  border: 0.5px solid #fb793d;
   box-shadow: 1.5px 1.5px 2px #ee5b41c4;
   transition: 0.3s all;
   border-radius: 3px;
@@ -651,7 +684,7 @@ h6 {
   font-family: "Begum Sans", sans-serif;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  /* font-weight: 500; */
   line-height: 2.2;
 }
 *,
