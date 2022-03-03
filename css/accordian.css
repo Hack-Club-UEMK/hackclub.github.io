@@ -43,7 +43,7 @@
 }
 
 .accordion__item--active .accordion__btn {
-  color: orange;
+  color: #2ea14b;
   border-bottom: 2px solid var(--color-purple);
   background: white;
 }
