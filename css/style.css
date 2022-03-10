@@ -142,7 +142,6 @@ a:hover {
 .overview-card {
   margin-bottom: 30px;
   padding: 25px 30px;
-  border-radius: 5px;
   border-color: #fb923c;
 }
 
@@ -349,6 +348,23 @@ a:hover {
   padding-left: 10px;
 }
 
+.paddingbutton{
+  padding: 30px;
+}
+
+.sponsor-sec{
+  font-family: "Begum Sans Medium", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .paddingbutton{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
 .hero-button {
   font-family: "Begum Sans Medium", sans-serif;
   background-color: #fb923c;
@@ -481,7 +497,7 @@ ul {
   border: 0.5px solid #fb793d;
   box-shadow: 1.5px 1.5px 2px #ee5b41c4;
   transition: 0.3s all;
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: #fff;
   justify-content: center;
   text-align: center;
@@ -533,13 +549,18 @@ ul {
   -o-transition: all 0.5s;
 }
 
-.logo:hover {
+.context-title{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* .logo:hover {
   transform: scale(2) translate(0.1rem, 0.8rem);
   -webkit-transform: scale(2) translate(1rem, 0.8rem);
   -moz-transform: scale(2) translate(1rem, 0.8rem);
   -ms-transform: scale(2) translate(1rem, 0.8rem);
   -o-transform: scale(2) translate(1rem, 0.8rem);
-}
+} */
 
 /* hackdependence styles */
 

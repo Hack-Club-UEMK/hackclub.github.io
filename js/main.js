@@ -25,14 +25,14 @@ $(document).ready(function () {
 
 // show / hide navbar
 
-let prevScrollValue = window.scrollY;
+// let prevScrollValue = window.scrollY;
 
-window.addEventListener("scroll", () => {
-  const navbar = document.querySelector(".nav-header");
+// window.addEventListener("scroll", () => {
+//   const navbar = document.querySelector(".nav-header");
 
-  console.log(window.scrollY < prevScrollValue ? "1" : "0");
+//   console.log(window.scrollY < prevScrollValue ? "1" : "0");
 
-  navbar.classList[window.scrollY < prevScrollValue ? "remove" : "add"]("hide");
+//   navbar.classList[window.scrollY < prevScrollValue ? "remove" : "add"]("hide");
 
-  prevScrollValue = window.scrollY;
-});
+//   prevScrollValue = window.scrollY;
+// });
