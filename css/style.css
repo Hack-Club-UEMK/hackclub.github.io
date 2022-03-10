@@ -564,7 +564,48 @@ ul {
   transition: transform 250ms ease-in;
 }
 /* Prizes card styling */
+.cardno {
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: #fb793d;
+  box-shadow: -1rem 0 3rem #000;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
+}
 
+.cardno-header {
+  margin-bottom: auto;
+}
+.cardno-header p {
+  font-size: 20px;
+  margin: 0 0 1rem;
+  color: #000;
+}
+
+.cardno-header h2 {
+  font-size: 35px;
+  margin: 0.25rem 0 auto;
+  text-decoration: none;
+
+  border: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.cardno-prizeimg {
+  margin: 1rem 0 0;
+  display: grid;
+  align-items: center;
+  position: relative;
+}
 /* .prize-section h1 {
   color: var(--secondary-text-color);
 } */
